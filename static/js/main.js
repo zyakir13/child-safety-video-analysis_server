@@ -90,6 +90,14 @@ function handleFileSelect() {
         return;
     }
     
+    // Validate file size (3MB limit)
+    if (file.size > 3 * 1024 * 1024) {
+        alert('File size must be less than 3MB to prevent memory issues. Please select a smaller video.');
+        videoFileInput.value = '';
+        hideFileInfo();
+        return;
+    }
+    
     // Show file info
     fileName.textContent = file.name;
     fileMeta.textContent = `${formatFileSize(file.size)}`;

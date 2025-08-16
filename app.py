@@ -45,7 +45,7 @@ from result_formatter import ResultFormatter
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
-app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # 100MB max file size
+app.config['MAX_CONTENT_LENGTH'] = 3 * 1024 * 1024  # 3MB max file size
 
 # Ensure upload directory exists
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -271,6 +271,14 @@ def upload_video():
     
     if not allowed_file(file.filename):
         return jsonify({'error': 'Only MP4 files are allowed'}), 400
+    
+    # Check file size (additional validation beyond Flask's MAX_CONTENT_LENGTH)
+    file.seek(0, 2)  # Seek to end of file
+    file_size = file.tell()
+    file.seek(0)  # Reset to beginning
+    
+    if file_size > 3 * 1024 * 1024:  # 3MB
+        return jsonify({'error': 'File size must be less than 3MB to prevent memory issues'}), 400
     
     # Generate unique job ID
     job_id = str(uuid.uuid4())
