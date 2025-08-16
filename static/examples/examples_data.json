@@ -1,0 +1,34 @@
+{
+  "examples": [
+    {
+      "id": "kindergarten",
+      "title": "Kindergarten Play Scene",
+      "videoPath": "/static/videos/kindergarden_example.mp4",
+      "duration": "37.8s",
+      "result": {
+        "status": "safe",
+        "confidence": 98,
+        "summary": "Normal childcare activity with adult and children playing together",
+        "details": "Adult kneeling and playing with toys while children interact nearby. No concerning behavior detected.",
+        "sequences_analyzed": 5,
+        "incidents_found": 0
+      },
+      "thumbnail": "/static/thumbnails/kindergarten_thumb.jpg"
+    },
+    {
+      "id": "concerning",
+      "title": "Classroom Interaction",
+      "videoPath": "/static/videos/test4_example.mp4", 
+      "duration": "8.0s",
+      "result": {
+        "status": "concerning",
+        "confidence": 90,
+        "summary": "Adult displaying aggressive behavior toward child",
+        "details": "Adult pointing finger close to child's face with confrontational body language and stern expression.",
+        "sequences_analyzed": 3,
+        "incidents_found": 3
+      },
+      "thumbnail": "/static/thumbnails/test4_thumb.jpg"
+    }
+  ]
+}

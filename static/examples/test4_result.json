@@ -1,0 +1,140 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-08-15T23:27:55.394619",
+    "video_path": "tes4.mp4",
+    "total_sequences_analyzed": 3,
+    "violence_incidents_found": 3
+  },
+  "incidents": [
+    {
+      "time_range": {
+        "start_seconds": 0.0,
+        "end_seconds": 2.0,
+        "start_formatted": "0:00",
+        "end_formatted": "0:02"
+      },
+      "inappropriate_behavior_detected": true,
+      "confidence_percentage": 90,
+      "description": "An adult is observed pointing a finger very close to a child's face and exhibiting what appears to be loud, confrontational, or aggressive body language. The adult's posture and proximity could be interpreted as intimidating or aggressive (not physical violence but potentially emotionally distressing) toward the child. This begins around frame 2 and continues through frame 8, with particular motion and intensity apparent as indicated by red rectangles.",
+      "scene_context": "One adult and one child are present. The adult, standing and wearing a blue shirt, leans toward a seated child in a red shirt. The adult is pointing a finger close to the child's face. The scene is set in a classroom environment with a whiteboard behind them and chairs present. There is no clear evidence of physical contact, but the adult's facial expression and gesture appear stern and confrontational.",
+      "frames_of_concern": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "composite_image_path": "output\\composite_0.00s_to_2.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": true,
+        "confidence": 90,
+        "description": "An adult is observed pointing a finger very close to a child's face and exhibiting what appears to be loud, confrontational, or aggressive body language. The adult's posture and proximity could be interpreted as intimidating or aggressive (not physical violence but potentially emotionally distressing) toward the child. This begins around frame 2 and continues through frame 8, with particular motion and intensity apparent as indicated by red rectangles.",
+        "scene_context": "One adult and one child are present. The adult, standing and wearing a blue shirt, leans toward a seated child in a red shirt. The adult is pointing a finger close to the child's face. The scene is set in a classroom environment with a whiteboard behind them and chairs present. There is no clear evidence of physical contact, but the adult's facial expression and gesture appear stern and confrontational.",
+        "frames_of_concern": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": true,\n  \"confidence\": 90,\n  \"description\": \"An adult is observed pointing a finger very close to a child's face and exhibiting what appears to be loud, confrontational, or aggressive body language. The adult's posture and proximity could be interpreted as intimidating or aggressive (not physical violence but potentially emotionally distressing) toward the child. This begins around frame 2 and continues through frame 8, with particular motion and intensity apparent as indicated by red rectangles.\",\n  \"scene_context\": \"One adult and one child are present. The adult, standing and wearing a blue shirt, leans toward a seated child in a red shirt. The adult is pointing a finger close to the child's face. The scene is set in a classroom environment with a whiteboard behind them and chairs present. There is no clear evidence of physical contact, but the adult's facial expression and gesture appear stern and confrontational.\",\n  \"frames_of_concern\": [2, 3, 4, 5, 6, 7, 8]\n}"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 2.0,
+        "end_seconds": 3.0,
+        "start_formatted": "0:02",
+        "end_formatted": "0:03"
+      },
+      "inappropriate_behavior_detected": true,
+      "confidence_percentage": 85,
+      "description": "Across all frames (Frames 1-8), an adult in a blue shirt stands over a seated child in a red shirt, pointing very closely to the child's face in an assertive, possibly confrontational posture. The child appears to become increasingly distressed\u2014dropping their head, curling their body, and raising arms defensively or protectively starting from Frame 4 onward. The adult's posture and persistent finger-pointing at close range do not visibly deescalate, and the proximity/intensity of the gesture could be seen as intimidating or threatening. No clear physical contact is seen, but the sequence suggests emotional intimidation or verbal aggression.",
+      "scene_context": "One adult (standing, blue shirt) and one child (seated, red shirt) are present in a classroom setting with a whiteboard and chairs. The adult repeatedly points a finger close to the child's face while the child remains seated. The child moves from upright posture to leaning down and raising arms, possibly in a defensive gesture. No visible physical contact occurs, and no objects are exchanged or interacted with beyond body language.",
+      "frames_of_concern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "composite_image_path": "output\\composite_SPLIT_2.00s_to_3.00s_from_2.00s-4.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": true,
+        "confidence": 85,
+        "description": "Across all frames (Frames 1-8), an adult in a blue shirt stands over a seated child in a red shirt, pointing very closely to the child's face in an assertive, possibly confrontational posture. The child appears to become increasingly distressed\u2014dropping their head, curling their body, and raising arms defensively or protectively starting from Frame 4 onward. The adult's posture and persistent finger-pointing at close range do not visibly deescalate, and the proximity/intensity of the gesture could be seen as intimidating or threatening. No clear physical contact is seen, but the sequence suggests emotional intimidation or verbal aggression.",
+        "scene_context": "One adult (standing, blue shirt) and one child (seated, red shirt) are present in a classroom setting with a whiteboard and chairs. The adult repeatedly points a finger close to the child's face while the child remains seated. The child moves from upright posture to leaning down and raising arms, possibly in a defensive gesture. No visible physical contact occurs, and no objects are exchanged or interacted with beyond body language.",
+        "frames_of_concern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": true,\n  \"confidence\": 85,\n  \"description\": \"Across all frames (Frames 1-8), an adult in a blue shirt stands over a seated child in a red shirt, pointing very closely to the child's face in an assertive, possibly confrontational posture. The child appears to become increasingly distressed\u2014dropping their head, curling their body, and raising arms defensively or protectively starting from Frame 4 onward. The adult's posture and persistent finger-pointing at close range do not visibly deescalate, and the proximity/intensity of the gesture could be seen as intimidating or threatening. No clear physical contact is seen, but the sequence suggests emotional intimidation or verbal aggression.\",\n  \"scene_context\": \"One adult (standing, blue shirt) and one child (seated, red shirt) are present in a classroom setting with a whiteboard and chairs. The adult repeatedly points a finger close to the child's face while the child remains seated. The child moves from upright posture to leaning down and raising arms, possibly in a defensive gesture. No visible physical contact occurs, and no objects are exchanged or interacted with beyond body language.\",\n  \"frames_of_concern\": [1, 2, 3, 4, 5, 6, 7, 8]\n}"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 3.0,
+        "end_seconds": 4.0,
+        "start_formatted": "0:03",
+        "end_formatted": "0:04"
+      },
+      "inappropriate_behavior_detected": true,
+      "confidence_percentage": 80,
+      "description": "Across frames 1-8, the adult in a blue shirt continuously points a finger very close to the child's face and maintains a confrontational posture. The child in a red shirt moves from a defensive, hunched position in frame 1 to standing and facing the adult in later frames, showing visible distress. The adult displays stern facial expressions and does not step back or reduce the intensity of the gesture, suggesting intimidation or aggressive non-verbal communication. No physical contact is clearly seen, but the consistent aggressive posturing and the child\u2019s defensive reactions are concerning.",
+      "scene_context": "One adult (standing, blue shirt) and one child (red shirt, initially seated then standing) are present in a classroom setting, with a whiteboard and chairs visible. The adult repeatedly points a finger very close to the child's face while leaning toward the child, who displays defensive or distressed body language. The high-motion period involves rapid gesture changes and movement, particularly from the child. No other individuals or objects are visibly interacted with in this sequence.",
+      "frames_of_concern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "composite_image_path": "output\\composite_SPLIT_3.00s_to_4.00s_from_2.00s-4.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": true,
+        "confidence": 80,
+        "description": "Across frames 1-8, the adult in a blue shirt continuously points a finger very close to the child's face and maintains a confrontational posture. The child in a red shirt moves from a defensive, hunched position in frame 1 to standing and facing the adult in later frames, showing visible distress. The adult displays stern facial expressions and does not step back or reduce the intensity of the gesture, suggesting intimidation or aggressive non-verbal communication. No physical contact is clearly seen, but the consistent aggressive posturing and the child\u2019s defensive reactions are concerning.",
+        "scene_context": "One adult (standing, blue shirt) and one child (red shirt, initially seated then standing) are present in a classroom setting, with a whiteboard and chairs visible. The adult repeatedly points a finger very close to the child's face while leaning toward the child, who displays defensive or distressed body language. The high-motion period involves rapid gesture changes and movement, particularly from the child. No other individuals or objects are visibly interacted with in this sequence.",
+        "frames_of_concern": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "raw_response": "```json\n{\n  \"inappropriate_behavior_detected\": true,\n  \"confidence\": 80,\n  \"description\": \"Across frames 1-8, the adult in a blue shirt continuously points a finger very close to the child's face and maintains a confrontational posture. The child in a red shirt moves from a defensive, hunched position in frame 1 to standing and facing the adult in later frames, showing visible distress. The adult displays stern facial expressions and does not step back or reduce the intensity of the gesture, suggesting intimidation or aggressive non-verbal communication. No physical contact is clearly seen, but the consistent aggressive posturing and the child\u2019s defensive reactions are concerning.\",\n  \"scene_context\": \"One adult (standing, blue shirt) and one child (red shirt, initially seated then standing) are present in a classroom setting, with a whiteboard and chairs visible. The adult repeatedly points a finger very close to the child's face while leaning toward the child, who displays defensive or distressed body language. The high-motion period involves rapid gesture changes and movement, particularly from the child. No other individuals or objects are visibly interacted with in this sequence.\",\n  \"frames_of_concern\": [1,2,3,4,5,6,7,8]\n}\n```"
+      }
+    }
+  ],
+  "summary": {
+    "violence_detected": true,
+    "highest_confidence": 90,
+    "time_ranges_with_violence": [
+      "0:00-0:02",
+      "0:02-0:03",
+      "0:03-0:04"
+    ]
+  }
+}

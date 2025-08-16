@@ -1,0 +1,130 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-08-15T23:24:38.816206",
+    "video_path": "kindergarden_novoilence.mp4",
+    "total_sequences_analyzed": 5,
+    "violence_incidents_found": 0
+  },
+  "incidents": [
+    {
+      "time_range": {
+        "start_seconds": 22.0,
+        "end_seconds": 24.0,
+        "start_formatted": "0:22",
+        "end_formatted": "0:24"
+      },
+      "inappropriate_behavior_detected": false,
+      "confidence_percentage": 98,
+      "description": "Across all frames (1-8), movement is detected between an adult (possibly a caregiver) and a child on the floor. The adult appears to be interacting with toys or objects near the child. There are no signs of physical aggression, inappropriate contact, distress, or concerning behavior. Movement is within the typical expectations for childcare activity.",
+      "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on the floor, engaging with toys scattered across a blue-and-white checkered mat. One child is standing nearby holding a green object, and another child is seated or playing close to the adult. There is a wooden crib, chairs, and a table visible in the background with toys and objects around.",
+      "frames_of_concern": [],
+      "composite_image_path": "output\\composite_22.00s_to_24.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": false,
+        "confidence": 98,
+        "description": "Across all frames (1-8), movement is detected between an adult (possibly a caregiver) and a child on the floor. The adult appears to be interacting with toys or objects near the child. There are no signs of physical aggression, inappropriate contact, distress, or concerning behavior. Movement is within the typical expectations for childcare activity.",
+        "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on the floor, engaging with toys scattered across a blue-and-white checkered mat. One child is standing nearby holding a green object, and another child is seated or playing close to the adult. There is a wooden crib, chairs, and a table visible in the background with toys and objects around.",
+        "frames_of_concern": [],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": false,\n  \"confidence\": 98,\n  \"description\": \"Across all frames (1-8), movement is detected between an adult (possibly a caregiver) and a child on the floor. The adult appears to be interacting with toys or objects near the child. There are no signs of physical aggression, inappropriate contact, distress, or concerning behavior. Movement is within the typical expectations for childcare activity.\",\n  \"scene_context\": \"One adult and two children are present in a playroom. The adult is kneeling or sitting on the floor, engaging with toys scattered across a blue-and-white checkered mat. One child is standing nearby holding a green object, and another child is seated or playing close to the adult. There is a wooden crib, chairs, and a table visible in the background with toys and objects around.\",\n  \"frames_of_concern\": []\n}"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 24.0,
+        "end_seconds": 26.0,
+        "start_formatted": "0:24",
+        "end_formatted": "0:26"
+      },
+      "inappropriate_behavior_detected": false,
+      "confidence_percentage": 98,
+      "description": "Across all 8 frames, there are no signs of physical aggression, inappropriate contact, or distressing situations. The adult appears to be interacting with toys on the mat, and both children are engaged in normal play or movement within the area. Red rectangles highlight motion areas, mainly consistent with typical activity like reaching for toys or children moving around.",
+      "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child is standing and moving closer to the adult, while another is on the mat near the adult. The background contains a wooden crib, chairs, a table, and scattered toys. Movements correspond to typical play and supervision.",
+      "frames_of_concern": [],
+      "composite_image_path": "output\\composite_24.00s_to_26.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": false,
+        "confidence": 98,
+        "description": "Across all 8 frames, there are no signs of physical aggression, inappropriate contact, or distressing situations. The adult appears to be interacting with toys on the mat, and both children are engaged in normal play or movement within the area. Red rectangles highlight motion areas, mainly consistent with typical activity like reaching for toys or children moving around.",
+        "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child is standing and moving closer to the adult, while another is on the mat near the adult. The background contains a wooden crib, chairs, a table, and scattered toys. Movements correspond to typical play and supervision.",
+        "frames_of_concern": [],
+        "raw_response": "```json\n{\n  \"inappropriate_behavior_detected\": false,\n  \"confidence\": 98,\n  \"description\": \"Across all 8 frames, there are no signs of physical aggression, inappropriate contact, or distressing situations. The adult appears to be interacting with toys on the mat, and both children are engaged in normal play or movement within the area. Red rectangles highlight motion areas, mainly consistent with typical activity like reaching for toys or children moving around.\",\n  \"scene_context\": \"One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child is standing and moving closer to the adult, while another is on the mat near the adult. The background contains a wooden crib, chairs, a table, and scattered toys. Movements correspond to typical play and supervision.\",\n  \"frames_of_concern\": []\n}\n```"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 26.0,
+        "end_seconds": 28.0,
+        "start_formatted": "0:26",
+        "end_formatted": "0:28"
+      },
+      "inappropriate_behavior_detected": false,
+      "confidence_percentage": 95,
+      "description": "Across all frames (1-8), the adult and two children are consistently engaged in play within a defined play area. The red rectangles highlight routine movements such as the adult interacting with toys and repositioning on the floor. The children remain at a distance or are observed playing. No evidence of physical aggression, inappropriate contact, or distress is visible. All interactions and positions appear consistent with normal childcare and playroom activity.",
+      "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child stands a few feet away while another is either playing or sitting near the adult. Surrounding the group are various toys, a crib in the back, several chairs, and a table. Movements in the highlighted areas correspond to ordinary play and supervision.",
+      "frames_of_concern": [],
+      "composite_image_path": "output\\composite_26.00s_to_28.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": false,
+        "confidence": 95,
+        "description": "Across all frames (1-8), the adult and two children are consistently engaged in play within a defined play area. The red rectangles highlight routine movements such as the adult interacting with toys and repositioning on the floor. The children remain at a distance or are observed playing. No evidence of physical aggression, inappropriate contact, or distress is visible. All interactions and positions appear consistent with normal childcare and playroom activity.",
+        "scene_context": "One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child stands a few feet away while another is either playing or sitting near the adult. Surrounding the group are various toys, a crib in the back, several chairs, and a table. Movements in the highlighted areas correspond to ordinary play and supervision.",
+        "frames_of_concern": [],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": false,\n  \"confidence\": 95,\n  \"description\": \"Across all frames (1-8), the adult and two children are consistently engaged in play within a defined play area. The red rectangles highlight routine movements such as the adult interacting with toys and repositioning on the floor. The children remain at a distance or are observed playing. No evidence of physical aggression, inappropriate contact, or distress is visible. All interactions and positions appear consistent with normal childcare and playroom activity.\",\n  \"scene_context\": \"One adult and two children are present in a playroom. The adult is kneeling or sitting on a blue-and-white checkered mat, interacting with toys. One child stands a few feet away while another is either playing or sitting near the adult. Surrounding the group are various toys, a crib in the back, several chairs, and a table. Movements in the highlighted areas correspond to ordinary play and supervision.\",\n  \"frames_of_concern\": []\n}"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 28.0,
+        "end_seconds": 30.0,
+        "start_formatted": "0:28",
+        "end_formatted": "0:30"
+      },
+      "inappropriate_behavior_detected": false,
+      "confidence_percentage": 97,
+      "description": "Across all frames (#1-8), an adult and two children are visible. The adult is seated or kneeling on a playmat, reaching or gesturing towards toys or interacting with the environment. One child is moving across the mat toward or away from the adult, and another child may be playing closer to the adult. Red rectangles highlight motion but do not reveal any acts of physical aggression, inappropriate contact, distress, or harmful interactions. All visible motion and interactions appear consistent with normal play and supervision.",
+      "scene_context": "One adult and two children are present in a playroom with a blue-and-white checkered mat. The adult is seated or kneeling on the mat, engaged with toys, and reaching out with their arm. One child is moving near the adult, while the other is positioned a short distance away, possibly moving toward the right side of the frame. There are chairs, a table, a wooden crib, and scattered toys in the background, with all individuals behaving in line with supervised play.",
+      "frames_of_concern": [],
+      "composite_image_path": "output\\composite_28.00s_to_30.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": false,
+        "confidence": 97,
+        "description": "Across all frames (#1-8), an adult and two children are visible. The adult is seated or kneeling on a playmat, reaching or gesturing towards toys or interacting with the environment. One child is moving across the mat toward or away from the adult, and another child may be playing closer to the adult. Red rectangles highlight motion but do not reveal any acts of physical aggression, inappropriate contact, distress, or harmful interactions. All visible motion and interactions appear consistent with normal play and supervision.",
+        "scene_context": "One adult and two children are present in a playroom with a blue-and-white checkered mat. The adult is seated or kneeling on the mat, engaged with toys, and reaching out with their arm. One child is moving near the adult, while the other is positioned a short distance away, possibly moving toward the right side of the frame. There are chairs, a table, a wooden crib, and scattered toys in the background, with all individuals behaving in line with supervised play.",
+        "frames_of_concern": [],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": false,\n  \"confidence\": 97,\n  \"description\": \"Across all frames (#1-8), an adult and two children are visible. The adult is seated or kneeling on a playmat, reaching or gesturing towards toys or interacting with the environment. One child is moving across the mat toward or away from the adult, and another child may be playing closer to the adult. Red rectangles highlight motion but do not reveal any acts of physical aggression, inappropriate contact, distress, or harmful interactions. All visible motion and interactions appear consistent with normal play and supervision.\",\n  \"scene_context\": \"One adult and two children are present in a playroom with a blue-and-white checkered mat. The adult is seated or kneeling on the mat, engaged with toys, and reaching out with their arm. One child is moving near the adult, while the other is positioned a short distance away, possibly moving toward the right side of the frame. There are chairs, a table, a wooden crib, and scattered toys in the background, with all individuals behaving in line with supervised play.\",\n  \"frames_of_concern\": []\n}"
+      }
+    },
+    {
+      "time_range": {
+        "start_seconds": 30.0,
+        "end_seconds": 32.0,
+        "start_formatted": "0:30",
+        "end_formatted": "0:32"
+      },
+      "inappropriate_behavior_detected": false,
+      "confidence_percentage": 95,
+      "description": "Across frames 1-8, the adult remains on or near the blue-and-white mat, reaching and interacting with toys. Two children are present\u2014one standing a short distance away, and another moving on or near the mat. The red rectangles highlight motion corresponding to reaching, standing, or play-related movements. No signs of physical aggression, distress, or inappropriate contact are visible.",
+      "scene_context": "One adult and two children are present in a playroom. The adult is positioned on or near a blue-and-white checkered mat, reaching out (possibly for toys or toward a child) across frames. One child stands on the right side of the mat, while the other child moves closer or sits on the mat. The room contains a crib, several chairs, a table, and scattered toys.",
+      "frames_of_concern": [],
+      "composite_image_path": "output\\composite_30.00s_to_32.00s_ENHANCED.jpg",
+      "frames_analyzed": 16,
+      "full_api_response": {
+        "inappropriate_behavior_detected": false,
+        "confidence": 95,
+        "description": "Across frames 1-8, the adult remains on or near the blue-and-white mat, reaching and interacting with toys. Two children are present\u2014one standing a short distance away, and another moving on or near the mat. The red rectangles highlight motion corresponding to reaching, standing, or play-related movements. No signs of physical aggression, distress, or inappropriate contact are visible.",
+        "scene_context": "One adult and two children are present in a playroom. The adult is positioned on or near a blue-and-white checkered mat, reaching out (possibly for toys or toward a child) across frames. One child stands on the right side of the mat, while the other child moves closer or sits on the mat. The room contains a crib, several chairs, a table, and scattered toys.",
+        "frames_of_concern": [],
+        "raw_response": "{\n  \"inappropriate_behavior_detected\": false,\n  \"confidence\": 95,\n  \"description\": \"Across frames 1-8, the adult remains on or near the blue-and-white mat, reaching and interacting with toys. Two children are present\u2014one standing a short distance away, and another moving on or near the mat. The red rectangles highlight motion corresponding to reaching, standing, or play-related movements. No signs of physical aggression, distress, or inappropriate contact are visible.\",\n  \"scene_context\": \"One adult and two children are present in a playroom. The adult is positioned on or near a blue-and-white checkered mat, reaching out (possibly for toys or toward a child) across frames. One child stands on the right side of the mat, while the other child moves closer or sits on the mat. The room contains a crib, several chairs, a table, and scattered toys.\",\n  \"frames_of_concern\": []\n}"
+      }
+    }
+  ],
+  "summary": {
+    "violence_detected": false,
+    "highest_confidence": 98,
+    "time_ranges_with_violence": []
+  }
+}
